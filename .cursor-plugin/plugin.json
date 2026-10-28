@@ -1,0 +1,20 @@
+{
+  "name": "vibevo",
+  "version": "0.1.0",
+  "description": "Connect VibeVO campaign, creator, content-factory, wallet and placement tools. Account sign-in and consent required.",
+  "author": {
+    "name": "VibeVO",
+    "email": "support@vibevo.io"
+  },
+  "homepage": "https://vibevo.io",
+  "license": "MIT",
+  "keywords": [
+    "campaigns",
+    "creators",
+    "analytics",
+    "monitoring",
+    "placements"
+  ],
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
+}

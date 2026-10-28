@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "vibevo": {
+      "url": "https://api.vibevo.io/api/v1/mcp",
+      "auth": {
+        "CLIENT_ID": "vibevo-cursor",
+        "scopes": [
+          "read"
+        ]
+      }
+    }
+  }
+}
