@@ -1,7 +1,7 @@
 {
   "name": "vibevo",
-  "version": "0.1.0",
-  "description": "Connect VibeVO campaign, creator, content-factory, wallet and placement tools. Account sign-in and consent required.",
+  "version": "0.1.1",
+  "description": "Analyze VibeVO campaigns, posts and content factories; use permitted publishing and monitoring workflows. Account sign-in and consent required.",
   "author": {
     "name": "VibeVO",
     "email": "support@vibevo.io"

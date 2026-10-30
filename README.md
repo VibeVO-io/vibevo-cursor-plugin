@@ -12,11 +12,13 @@ This package is prepared for marketplace review. Source-package validation is se
 - Creator posts and social accounts.
 - Content-factory summaries, monitored accounts and posts.
 - Your own wallet balance and transaction history.
-- Supported creator profiles and placement workflows.
+- Unfunded campaign drafts and permitted profile, publishing, reporting and account-access workflows.
 
-The default configuration requests **read** access. Supported changes remain available only with separately requested **write** consent, the account's existing permissions and applicable feature access. Some write tools purchase monitoring credits, run paid scans, reserve placement funds or approve creator payouts. Those actions affect wallet funds and require explicit action approval.
+The default configuration requests **read** access. Supported changes require separately requested **write** consent, current account permissions and feature access. The hosted connection currently offers 237 tools across these scopes. Monitoring can maintain or consume existing included or previously purchased nonwithdrawable monitoring credits; it cannot purchase new credits.
 
-This is not complete cabinet parity. Campaigns, factories and wallets refer to the consenting account owner; selecting a shared account in the VibeVO browser cabinet does not automatically select it in the connector. Some cabinet charts, filters and wallet operations have no tool. The hosted connector excludes local-file upload/download tools.
+The hosted connection cannot request or cancel withdrawals, initiate transfers or top-ups, create payment-provider orders or quotes, purchase credits, trade accounts, launch or change the lifecycle of campaigns, run funded placement workflows, submit quizzes for monetary rewards, or start/rerun AI image or video generation and generative edits. Historical balances and transactions remain available for display. Supported text translation and deterministic overlay previews remain available.
+
+Reads default to the connected owner's account. For tools accepting `accountId`, first list accessible accounts and explicitly select an authorized account. Selecting a shared account in the browser cabinet does not select it in the connector. Roles, scopes and object permissions are checked by VibeVO. Some cabinet screens and charts have no tool; this connection does not provide complete cabinet parity or read local server files.
 
 ## Connect in Cursor
 
@@ -55,7 +57,7 @@ Use IDs returned by the connected account, clarify the intended factory/campaign
 
 ## Account and fees
 
-A VibeVO account and access to the relevant records/features are required. This connection-metadata package has no separate purchase price. VibeVO service charges, monitoring usage and placement transactions follow the account's existing product terms. The package licence does not waive those service charges or establish marketplace-policy eligibility.
+A VibeVO account and access to the relevant records/features are required. This connection-metadata package has no separate purchase price. VibeVO service charges and monitoring usage follow the account's existing product terms. This hosted connection cannot purchase credits or initiate payment and withdrawal operations. The package licence does not waive those service charges or establish marketplace-policy eligibility.
 
 Revoke the corresponding connection key in VibeVO settings to remove its access. Do not commit credentials, tokens, reviewer accounts or private records to this repository.
 
