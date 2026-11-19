@@ -14,7 +14,7 @@ This package is prepared for marketplace review. Source-package validation is se
 - Your own wallet balance and transaction history.
 - Unfunded campaign drafts and permitted profile, publishing, reporting and account-access workflows.
 
-The default configuration requests **read** access. Supported changes require separately requested **write** consent, current account permissions and feature access. The hosted connection currently offers 237 tools across these scopes. Monitoring can maintain or consume existing included or previously purchased nonwithdrawable monitoring credits; it cannot purchase new credits.
+The default configuration requests **read** access. Supported changes require separately requested **write** consent, current account permissions and feature access. The hosted connection offers 231 tools across these scopes. It can show existing monitoring results and credit history. It cannot start or refresh scans, change scan schedules, use monitoring credits to run scans, or purchase credits.
 
 The hosted connection cannot request or cancel withdrawals, initiate transfers or top-ups, create payment-provider orders or quotes, purchase credits, trade accounts, launch or change the lifecycle of campaigns, run funded placement workflows, submit quizzes for monetary rewards, or start/rerun AI image or video generation and generative edits. Historical balances and transactions remain available for display. Supported text translation and deterministic overlay previews remain available.
 
@@ -57,7 +57,7 @@ Use IDs returned by the connected account, clarify the intended factory/campaign
 
 ## Account and fees
 
-A VibeVO account and access to the relevant records/features are required. This connection-metadata package has no separate purchase price. VibeVO service charges and monitoring usage follow the account's existing product terms. This hosted connection cannot purchase credits or initiate payment and withdrawal operations. The package licence does not waive those service charges or establish marketplace-policy eligibility.
+A VibeVO account and access to the relevant records/features are required. This connection-metadata package has no separate purchase price. VibeVO service charges follow the account's existing product terms. This hosted connection cannot purchase credits or initiate payment and withdrawal operations. The package licence does not waive those service charges or establish marketplace-policy eligibility.
 
 Revoke the corresponding connection key in VibeVO settings to remove its access. Do not commit credentials, tokens, reviewer accounts or private records to this repository.
 
